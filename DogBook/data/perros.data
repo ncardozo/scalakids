@@ -1,0 +1,73 @@
+dogBook.cantidadPerros=8
+
+dogBook.perro1.nombre=Thor
+dogBook.perro1.edad=8
+dogBook.perro1.raza=Boxer
+dogBook.perro1.sexo=Masculino
+dogBook.perro1.buscoPareja=No
+dogBook.perro1.meGusta=Ver televisión, que me consientan.
+dogBook.perro1.noMeGusta=Estar solo
+dogBook.perro1.foto=thor.jpg
+
+dogBook.perro2.nombre=Perdita
+dogBook.perro2.edad=3
+dogBook.perro2.raza=Dalmata
+dogBook.perro2.sexo=Femenino
+dogBook.perro2.buscoPareja=SI
+dogBook.perro2.meGusta= Jugar con otros perros.
+dogBook.perro2.noMeGusta=Las ardillas
+dogBook.perro2.foto=perdita.jpg
+
+dogBook.perro3.nombre=Rex
+dogBook.perro3.edad=4
+dogBook.perro3.raza=Labrador retriever
+dogBook.perro3.sexo=Masculino
+dogBook.perro3.buscoPareja=NO
+dogBook.perro3.meGusta=Oir música, jugar con los niños.
+dogBook.perro3.noMeGusta=Bañarse
+dogBook.perro3.foto=rex.jpg
+
+dogBook.perro4.nombre=Axl
+dogBook.perro4.edad=6
+dogBook.perro4.raza=Husky Siberiano
+dogBook.perro4.sexo=Masculino
+dogBook.perro4.buscoPareja=SI
+dogBook.perro4.meGusta=Los juguetes,  la carne.
+dogBook.perro4.noMeGusta=Los rayos
+dogBook.perro4.foto=axl.jpg
+
+dogBook.perro5.nombre=Mordelón
+dogBook.perro5.edad=4
+dogBook.perro5.raza=Pug
+dogBook.perro5.sexo=Masculino
+dogBook.perro5.buscoPareja=NO
+dogBook.perro5.meGusta=Las almohadas y los peluches.
+dogBook.perro5.noMeGusta=El agua
+dogBook.perro5.foto=mordelon.jpg
+
+dogBook.perro7.nombre=Leia
+dogBook.perro7.edad=1
+dogBook.perro7.raza=Cocker spaniel
+dogBook.perro7.sexo=Femenino
+dogBook.perro7.buscoPareja=NO
+dogBook.perro7.meGusta=Jugar, correr, dormir.
+dogBook.perro7.noMeGusta=Las bombas
+dogBook.perro7.foto=leia.jpg
+
+dogBook.perro6.nombre=Odie
+dogBook.perro6.edad=5
+dogBook.perro6.raza=Golden retriever
+dogBook.perro6.sexo=Masculino
+dogBook.perro6.buscoPareja=SI
+dogBook.perro6.meGusta=Ver televisión, comer.
+dogBook.perro6.noMeGusta=Bañarse
+dogBook.perro6.foto=odie.jpg
+
+dogBook.perro8.nombre=Pucca
+dogBook.perro8.edad=3
+dogBook.perro8.raza=Border collie
+dogBook.perro8.sexo=Femenino
+dogBook.perro8.buscoPareja=SI
+dogBook.perro8.meGusta=Los frisbies y las pelotas.
+dogBook.perro8.noMeGusta=El mar
+dogBook.perro8.foto=pucca.jpg
