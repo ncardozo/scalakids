@@ -5,9 +5,14 @@ import java.awt.Color
 import uniandes.cupi2.dogBook.mundo._
 
 object InterfazDogBook extends SimpleSwingApplication {
-  def top: Frame = new InterfazDogBook(new DogBookScala) {
+  
+  val dogBook = new DogBookScala
+  dogBook.cargarPerros("./data/perros.data");
+  
+  def top: Frame = new InterfazDogBook(dogBook) {
     title = "DogBook"
   }
+  
 }
 
 class InterfazDogBook(mundo: DogBookScala) extends MainFrame {
