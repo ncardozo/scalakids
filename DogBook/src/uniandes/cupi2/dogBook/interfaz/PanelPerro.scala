@@ -17,17 +17,14 @@ class PanelPerro(principal: InterfazDogBook) extends BorderPanel {
   }
 
   val botonLike = new Button {
-    text = "like"
     icon = new ImageIcon("./data/imagenes/me_gusta.png")
   }
 
   val botonLove = new Button {
-    text = "love"
     icon = new ImageIcon("./data/imagenes/corazon.png")
   }
 
   val botonHappy = new Button {
-    text = "happy"
     icon = new ImageIcon("./data/imagenes/cara_feliz.png")
   }
 

@@ -42,7 +42,7 @@ class DogBookScala {
 
   def darPerroActual = perros(perroActual)
 
-  def darPerroAnterior = {
+  def darPerroAnterior() = {
     if (perroActual == 0) {
       throw new Exception("Se encuentra en el primer perro. ");
     }
@@ -50,7 +50,7 @@ class DogBookScala {
     darPerroActual
   }
 
-  def darPerroSiguiente = {
+  def darPerroSiguiente() = {
     if (perroActual == perros.length - 1) {
       throw new Exception("Se encuentra en el último perro. ");
     }
@@ -58,7 +58,7 @@ class DogBookScala {
     darPerroActual
   }
 
-  def darPrimerPerro = {
+  def darPrimerPerro() = {
     if (perroActual == 0) {
       throw new Exception("Se encuentra en el primer perro. ");
     }
@@ -66,7 +66,7 @@ class DogBookScala {
     darPerroActual
   }
 
-  def darUltimoPerro = {
+  def darUltimoPerro() = {
     if (perroActual == perros.length - 1) {
       throw new Exception("Se encuentra en el último perro. ");
     }
@@ -112,6 +112,5 @@ class DogBookScala {
 
   }
 
-  cargarPerros("./data/perros.data");
 
 }
