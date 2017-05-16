@@ -1,4 +1,4 @@
-Mario 2***72
-Otro 63***63
-Mario 63***63
-Mario***28
+Mario 2===72
+Otro 63===63
+Mario 63===63
+Mario===28

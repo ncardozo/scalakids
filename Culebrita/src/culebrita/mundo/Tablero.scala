@@ -138,7 +138,7 @@ class Tablero(val ancho: Int, val alto: Int) {
 
   def guardarArchivoTopScore(): Unit = {
     val pw = new PrintWriter(new File(Tablero.archivoTopScore))
-    top10.foreach((ts) => if (ts != null) pw.println(ts.nombre + "***" + ts.puntos))
+    top10.foreach((ts) => if (ts != null) pw.println(ts.nombre + "===" + ts.puntos))
     pw.close()
   }
 
