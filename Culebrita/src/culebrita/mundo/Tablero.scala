@@ -6,6 +6,12 @@ import java.io.File
 import scala.io.Source
 import java.io.FileNotFoundException
 
+class Manzana(val xManzana: Int, val yManzana: Int) {  
+}
+
+class TopScore(val nombre: String, val puntos: Int) {  
+}
+
 object Tablero {
   val Norte = 0
   val Este = 1
