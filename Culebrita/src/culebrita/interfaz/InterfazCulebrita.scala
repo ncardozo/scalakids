@@ -18,13 +18,8 @@ object InterfazCulebrita extends SimpleSwingApplication {
 
   def top: Frame = new InterfazCulebrita(tablero, borde, escala) {
     title = "Culebrita"
+    resizable = false
   }
-
-  /*
-  tablero.generarCulebrita
-  tablero.generarNuevaManzana
-  * 
-  */
 }
 
 class InterfazCulebrita(tablero: Tablero, borde: Int, escala: Int) extends MainFrame {
@@ -32,6 +27,7 @@ class InterfazCulebrita(tablero: Tablero, borde: Int, escala: Int) extends MainF
   var canvas = new PanelTablero(tablero, borde, escala) {
     preferredSize = new Dimension((tablero.ancho * escala) + borde * 2, (tablero.alto * escala) + borde * 2)
   }
+
   var puntaje = new PanelPuntos(tablero, borde)
 
   contents = new BoxPanel(Orientation.Vertical) {
@@ -114,14 +110,12 @@ class Updater(val tablero: Tablero, val panel: PanelTablero, val panelPuntaje: P
 
   def run() {
     while (true) {
-      // println(tablero.estado)
       if (tablero.estado == Tablero.Jugando) {
         if (tablero.avanzar) {
           panelPuntaje.actualizarPuntos(tablero.puntos)
         } else {
           tablero.estado = Tablero.Perdio
           if (tablero.esTopScore()) {
-
             val r = Dialog.showInput(panel, "Indique su nombre", "¡Top Score!", Dialog.Message.Question, null, (""), "nn" + tablero.puntos)
             r match {
               case Some(s) => tablero.guardarTopScore(s toString)
